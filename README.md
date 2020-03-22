@@ -1,2 +1,0 @@
-# denemeler
-Created with CodeSandbox
