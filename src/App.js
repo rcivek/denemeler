@@ -7,7 +7,8 @@ export default function App() {
     font1: "italic",
     font2: "bold",
     color: "red",
-    hacim: "hacim"
+    hacim: "hacim",
+    arkaPlan: "renk"
   };
 
   return (
@@ -18,6 +19,7 @@ export default function App() {
       <ButtonComp buttonStyle={buttonStyles.font2} />
       <ButtonComp buttonStyle={buttonStyles.color} />
       <ButtonComp buttonStyle={buttonStyles.hacim} />
+      <ButtonComp buttonStyle={buttonStyles.arkaPlan} />
     </div>
   );
 }
